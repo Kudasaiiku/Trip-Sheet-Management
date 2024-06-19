@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Хранилище TransportModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Fuel">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Марка" Type="varchar" MaxLength="255" />
+          <Property Name="Норма" Type="int" />
+          <Property Name="Факт" Type="int" />
+        </EntityType>
+        <EntityType Name="WayList">
+          <Key>
+            <PropertyRef Name="Номер" />
+          </Key>
+          <Property Name="Номер" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Дата_выдачи" Type="varchar" MaxLength="255" />
+          <Property Name="Марка" Type="varchar" MaxLength="255" />
+          <Property Name="Госномер" Type="varchar" MaxLength="255" />
+          <Property Name="Водитель_1" Type="varchar" MaxLength="255" />
+          <Property Name="Водитель_2" Type="varchar" MaxLength="255" />
+          <Property Name="Маршрут" Type="varchar" MaxLength="255" />
+          <Property Name="Объем_бака" Type="int" />
+          <Property Name="Тип_топлива" Type="varchar" MaxLength="255" />
+          <Property Name="Остаток_в_баке" Type="int" />
+          <Property Name="Колво_заправл_топлива" Type="int" />
+          <Property Name="выдача_ПЛ" Type="int" />
+          <Property Name="Сдача_ПЛ" Type="int" />
+        </EntityType>
+        <EntityContainer Name="Хранилище TransportModelContainer">
+          <EntitySet Name="Fuel" EntityType="Self.Fuel" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="WayList" EntityType="Self.WayList" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="TransportModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Fuel">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Марка" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Норма" Type="Int32" />
+          <Property Name="Факт" Type="Int32" />
+        </EntityType>
+        <EntityType Name="WayList">
+          <Key>
+            <PropertyRef Name="Номер" />
+          </Key>
+          <Property Name="Номер" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Дата_выдачи" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Марка" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Госномер" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Водитель_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Водитель_2" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Маршрут" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Объем_бака" Type="Int32" />
+          <Property Name="Тип_топлива" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Остаток_в_баке" Type="Int32" />
+          <Property Name="Колво_заправл_топлива" Type="Int32" />
+          <Property Name="выдача_ПЛ" Type="Int32" />
+          <Property Name="Сдача_ПЛ" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="TransportEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Fuel" EntityType="Self.Fuel" />
+          <EntitySet Name="WayList" EntityType="Self.WayList" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище TransportModelContainer" CdmEntityContainer="TransportEntities">
+          <EntitySetMapping Name="Fuel">
+            <EntityTypeMapping TypeName="TransportModel.Fuel">
+              <MappingFragment StoreEntitySet="Fuel">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Марка" ColumnName="Марка" />
+                <ScalarProperty Name="Норма" ColumnName="Норма" />
+                <ScalarProperty Name="Факт" ColumnName="Факт" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="WayList">
+            <EntityTypeMapping TypeName="TransportModel.WayList">
+              <MappingFragment StoreEntitySet="WayList">
+                <ScalarProperty Name="Номер" ColumnName="Номер" />
+                <ScalarProperty Name="Дата_выдачи" ColumnName="Дата_выдачи" />
+                <ScalarProperty Name="Марка" ColumnName="Марка" />
+                <ScalarProperty Name="Госномер" ColumnName="Госномер" />
+                <ScalarProperty Name="Водитель_1" ColumnName="Водитель_1" />
+                <ScalarProperty Name="Водитель_2" ColumnName="Водитель_2" />
+                <ScalarProperty Name="Маршрут" ColumnName="Маршрут" />
+                <ScalarProperty Name="Объем_бака" ColumnName="Объем_бака" />
+                <ScalarProperty Name="Тип_топлива" ColumnName="Тип_топлива" />
+                <ScalarProperty Name="Остаток_в_баке" ColumnName="Остаток_в_баке" />
+                <ScalarProperty Name="Колво_заправл_топлива" ColumnName="Колво_заправл_топлива" />
+                <ScalarProperty Name="выдача_ПЛ" ColumnName="выдача_ПЛ" />
+                <ScalarProperty Name="Сдача_ПЛ" ColumnName="Сдача_ПЛ" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

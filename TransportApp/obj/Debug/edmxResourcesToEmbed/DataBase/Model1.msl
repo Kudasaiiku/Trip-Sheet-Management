@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище TransportModelContainer" CdmEntityContainer="TransportEntities">
+    <EntitySetMapping Name="Fuel">
+      <EntityTypeMapping TypeName="TransportModel.Fuel">
+        <MappingFragment StoreEntitySet="Fuel">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Марка" ColumnName="Марка" />
+          <ScalarProperty Name="Норма" ColumnName="Норма" />
+          <ScalarProperty Name="Факт" ColumnName="Факт" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WayList">
+      <EntityTypeMapping TypeName="TransportModel.WayList">
+        <MappingFragment StoreEntitySet="WayList">
+          <ScalarProperty Name="Номер" ColumnName="Номер" />
+          <ScalarProperty Name="Дата_выдачи" ColumnName="Дата_выдачи" />
+          <ScalarProperty Name="Марка" ColumnName="Марка" />
+          <ScalarProperty Name="Госномер" ColumnName="Госномер" />
+          <ScalarProperty Name="Водитель_1" ColumnName="Водитель_1" />
+          <ScalarProperty Name="Водитель_2" ColumnName="Водитель_2" />
+          <ScalarProperty Name="Маршрут" ColumnName="Маршрут" />
+          <ScalarProperty Name="Объем_бака" ColumnName="Объем_бака" />
+          <ScalarProperty Name="Тип_топлива" ColumnName="Тип_топлива" />
+          <ScalarProperty Name="Остаток_в_баке" ColumnName="Остаток_в_баке" />
+          <ScalarProperty Name="Колво_заправл_топлива" ColumnName="Колво_заправл_топлива" />
+          <ScalarProperty Name="выдача_ПЛ" ColumnName="выдача_ПЛ" />
+          <ScalarProperty Name="Сдача_ПЛ" ColumnName="Сдача_ПЛ" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,56 @@
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\bin\Debug\TransportApp.exe.config
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\bin\Debug\TransportApp.exe
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\bin\Debug\TransportApp.pdb
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp.csproj.AssemblyReference.cache
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\MainWindow.g.cs
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\App.g.cs
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp_MarkupCompile.cache
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp_MarkupCompile.lref
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\MainWindow.baml
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp.g.resources
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp.Properties.Resources.resources
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp.csproj.GenerateResource.cache
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp.csproj.CoreCompileInputs.cache
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp.exe
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp.pdb
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\Add.g.cs
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\Add.baml
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\Fuel.g.cs
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\Fuel.baml
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\bin\Debug\EntityFramework.dll
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\bin\Debug\EntityFramework.xml
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp_Content.g.cs
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp.csproj.CopyComplete
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\Enter.g.cs
+C:\Users\deadi\OneDrive\Рабочий стол\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\Enter.baml
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\bin\Debug\TransportApp.exe.config
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\bin\Debug\TransportApp.exe
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\bin\Debug\TransportApp.pdb
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\bin\Debug\EntityFramework.dll
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\bin\Debug\EntityFramework.xml
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp.csproj.AssemblyReference.cache
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\Enter.g.cs
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\Add.g.cs
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\Fuel.g.cs
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\MainWindow.g.cs
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\App.g.cs
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp_Content.g.cs
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp_MarkupCompile.cache
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp_MarkupCompile.lref
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\Enter.baml
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\Add.baml
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\Fuel.baml
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\MainWindow.baml
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp.g.resources
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp.Properties.Resources.resources
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp.csproj.GenerateResource.cache
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp.csproj.CoreCompileInputs.cache
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp.csproj.CopyComplete
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp.exe
+C:\Users\deadi\OneDrive\Рабочий стол\4 курс\УП Стоколос\TransportApp\TransportApp\TransportApp\obj\Debug\TransportApp.pdb

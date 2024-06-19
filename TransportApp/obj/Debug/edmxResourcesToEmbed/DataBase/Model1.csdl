@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TransportModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Fuel">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Марка" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Норма" Type="Int32" />
+    <Property Name="Факт" Type="Int32" />
+  </EntityType>
+  <EntityType Name="WayList">
+    <Key>
+      <PropertyRef Name="Номер" />
+    </Key>
+    <Property Name="Номер" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Дата_выдачи" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Марка" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Госномер" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Водитель_1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Водитель_2" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Маршрут" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Объем_бака" Type="Int32" />
+    <Property Name="Тип_топлива" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Остаток_в_баке" Type="Int32" />
+    <Property Name="Колво_заправл_топлива" Type="Int32" />
+    <Property Name="выдача_ПЛ" Type="Int32" />
+    <Property Name="Сдача_ПЛ" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="TransportEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Fuel" EntityType="Self.Fuel" />
+    <EntitySet Name="WayList" EntityType="Self.WayList" />
+  </EntityContainer>
+</Schema>
